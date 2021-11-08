@@ -11,6 +11,7 @@
     margin-top: 25px;
 }
 
+/******Row Padding for Nested Elements*****/
 .padding {
     padding: 20px;
 }
@@ -19,7 +20,9 @@
     background-color: #1bff00;
     border-color: #006cf9;
 }
+/******End Row Padding for Nested Elements*****/
 
+/*****Fifth part (Allignment)*****/
 .center {
     justify-content: center;
 }
@@ -45,3 +48,14 @@
 .bottom {
     align-self: flex-end;
 }
+/*****End Fifth part (Allignment)*****/
+
+/*****Sixth part (Justify Content)*****/
+.sp-around {
+    justify-content: space-around;
+}
+
+.sp-between{
+    justify-content: space-between;
+}
+/*****End Sixth part (Justify Content)*****/
