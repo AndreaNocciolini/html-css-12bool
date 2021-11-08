@@ -19,3 +19,29 @@
     background-color: #1bff00;
     border-color: #006cf9;
 }
+
+.center {
+    justify-content: center;
+}
+
+.end {
+    justify-content: flex-end;
+}
+
+.height-100 {
+    min-height: 100px;
+}
+
+.top,
+.middle,
+.bottom {
+    height: 50px;
+}
+
+.middle {
+    align-self: center;
+}
+
+.bottom {
+    align-self: flex-end;
+}
