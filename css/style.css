@@ -1,5 +1,17 @@
 [class *="col"] {
-    height: 100px;
-    border: 1px solid green;
-    background-color: blue;
+    min-height: 50px;
+    border: 1px solid #ffff;
+    background-color: #006cf9;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.padding div {
+    background-color: #1bff00;
+    border-color: #006cf9;
 }
